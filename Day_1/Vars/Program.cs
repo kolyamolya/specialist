@@ -55,7 +55,7 @@ namespace Vars
                 var test = 10;
                 Console.WriteLine(test);
                 {
-                    var test = "10";
+                    
                     Console.WriteLine(test);
                 }
             }
