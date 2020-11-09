@@ -10,8 +10,12 @@ namespace ConsoleApp_DotNetFramework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Dotnet");
-            Console.ReadLine();
+            Action<string> PrintConsole = (value) =>
+            {
+                Console.WriteLine(value);
+            };
+
+            PrintConsole("Hello World :-)");
         }
     }
 }

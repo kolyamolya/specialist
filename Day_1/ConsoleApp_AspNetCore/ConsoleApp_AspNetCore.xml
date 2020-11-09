@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleApp_AspNetCore</name>
+    </assembly>
+    <members>
+        <member name="M:ConsoleApp_AspNetCore.Program.Main(System.String[])">
+            <summary>
+            Точка входа в программу
+            </summary>
+            <param name="args">Параметры командной строки</param>
+        </member>
+    </members>
+</doc>
