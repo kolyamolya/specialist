@@ -22,6 +22,7 @@ namespace Operators
                               $"b : {b} \n" +
                               $"c : {c}");
             Console.ReadLine();
+            int i = 3; while (i-- >= 1) { Console.WriteLine("ok"); i--; }
         }
     }
 }
