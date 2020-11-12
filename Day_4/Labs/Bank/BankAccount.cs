@@ -51,10 +51,12 @@ namespace Bank
             }
         }
 
-        public static void Transfer(BankAccount source, BankAccount dest, Decimal summa) 
+        public static void Transfer(BankAccount source, BankAccount dest, Decimal summa)
         {
-            source.Withdraw(summa);
-            dest.Deposit(summa);
+            if (source.Withdraw(summa))
+            {
+                dest.Deposit(summa);
+            }
         }
 
         public override string ToString()
